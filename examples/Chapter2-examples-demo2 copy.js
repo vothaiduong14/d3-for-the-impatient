@@ -1,5 +1,5 @@
 function makeDemo2() {
-    d3.tsv( "examples-multiple.tsv" )
+    d3.tsv( "Chapter2-examples-multiple-demo2.tsv" )
         .then( function( data ) {
             var pxX = 600, pxY = 300;                             //<1>
             
